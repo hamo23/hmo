@@ -10,11 +10,11 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
+            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGJhY2tncm91bmR8ZW58MHx8fHwxNjc3OTM2NjA2&ixlib=rb-4.0.3&q=80&w=1080'); /* استخدم الصورة هنا */
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             color: #f4f4f4;
-            transition: background-image 0.5s;
         }
         .container {
             max-width: 600px;
@@ -178,7 +178,7 @@
             <li><a href="https://x.com/resa6544" class="twitter" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
             <li><a href="https://www.tiktok.com/@m55p7" class="tiktok" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
             <li><a href="https://tellonym.me/5.55p" class="tellonym" target="_blank"><i class="fas fa-comment"></i> Tellonym</a></li>
-            <li><a href="https://discord.com/invite/your_invite_code" class="discord" target="_blank"><i class="fab fa-discord"></i> Discord</a></li> <!-- رابط ديسكورد -->
+            <li><a href="https://discord.com/invite/your_invite_code" class="discord" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
         </ul>
         
         <div class="about-me">
@@ -194,17 +194,6 @@
         </footer>
     </div>
     <script>
-        const backgrounds = [
-            'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGJhY2tncm91bmR8ZW58MHx8fHwxNjc3OTM2NjA2&ixlib=rb-4.0.3&q=80&w=1080',
-            'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHxjb250ZXh0fGVufDB8fHx8MTY3NzkzNjYxNQ&ixlib=rb-4.0.3&q=80&w=1080',
-            'https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJhY2tncm91bmR8ZW58MHx8fHwxNjc3OTM2NjE0&ixlib=rb-4.0.3&q=80&w=1080',
-            'https://images.unsplash.com/photo-1564865862265-0b3d8f5b0b6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE1fHxjb250ZXh0fGVufDB8fHx8MTY3NzkzNjYyNg&ixlib=rb-4.0.3&q=80&w=1080'
-        ];
-
-        // اختيار صورة عشوائية
-        const randomIndex = Math.floor(Math.random() * backgrounds.length);
-        document.body.style.backgroundImage = `url(${backgrounds[randomIndex]})`;
-
         function updateDateTime() {
             const now = new Date();
             const options = { 
